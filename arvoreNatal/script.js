@@ -350,7 +350,7 @@
    
         (a = new THREE.TextGeometry(
    
-         "Feliz Natal", {
+         "Merry Christmas", {
    
           font: e,
    
