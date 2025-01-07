@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #ffffff; /* Light text for contrast */
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+header {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #333;
+}
+
+section {
+    padding: 40px 0;
+    margin: 10px 0;
+    background: #1e1e1e; /* Lighter section background */
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h2 {
+    color: #4a90e2;
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.skill {
+    background: #ff6347;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.skill:hover {
+    transform: scale(1.1);
+}
+
+.project {
+    background: #121212; /* Light project background */
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.project:hover {
+    background: #575252;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #333;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+    
