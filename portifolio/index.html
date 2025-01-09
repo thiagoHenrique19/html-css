@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Portifolio</title>
     <style>
-        a{
+        a#repository-github-anchor {
             color: white;
+            text-decoration: none;
         }
     </style>
 </head>
@@ -17,25 +18,25 @@
             <h1>Thiago Henrique de Oliveira</h1>
             <nav>
                 <ul>
-                    <li><a href="#sobre">About Me</a></li>
-                    <li><a href="#habilidades">Habilidades</a>
-                    <li><a href="#github">GitHub</a></li>
+                    <li><a href="#about me">About Me</a></li>
+                    <li><a href="#skills">Skills</a>
+                    <li><a href="#repository-github">GitHub</a></li>
                     <li><a href="#experiencia">Experience</a></li>
-                    <li><a href="#projetos">Projects</a></li>
-                    <li><a href="#contato">Contact</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section id="sobre">
+    <section id="about me">
         <div class="container">
             <h2>About Me</h2>
-            <p>I'm a web developer passionate about creating amazing web experiences. I have experience in various technologies and love learning new things.</p>
+            <p>I'm a developer passionate about creating amazing experiences. I have experience in various technologies and love learning new things.</p>
         </div>
     </section>
 
-    <section id="habilidades">
+    <section id="skills">
         <div class="container">
             <h2>Skills</h2>
             <div class="skills">
@@ -43,10 +44,12 @@
                 <div class="skill">CSS</div>
                 <div class="skill">JavaScript</div>
                 <div class="skill">Java</div>
+                 <div class="skill">Maven</div>
                 <div class="skill">MySQL</div>
                 <div class="skill">Postgres</div>
                 <div class="skill">Dbeaver</div>
                 <div class="skill">Junit5</div>
+                 <div class="skill">Hibernate</div>
                 <div class="skill">Spring</div>
                 <div class="skill">Linux</div>
             
@@ -54,20 +57,25 @@
         </div>
     </section>
 
-    <section id="sobre">
+
+    <section id="repository-github">
+      <section id="sobre">
         <div class="container">
             <h2>My GitHub</h2>
           <ul>
             <p>Access my repository on GitHub at the link below:</p>
-            <a href="https://github.com/thiagoHenrique19">
-                <li>Repository GitHub</li>
-            </a>
+            <li>
+                <a href="https://github.com/thiagoHenrique19" id="repository-github-anchor">
+                    Repository github.
+                </a>
+            </li>
           </ul>
         </div>
     </section>
 
 
     <section id="experiencia">
+    <section id="experience">
         <div class="container">
             <h2>Professional Experience</h2>
             <div class="experience">
@@ -79,13 +87,14 @@
                 <p>Application development using Java and Spring Framework.<br>
                     Creation and maintenance of MySQL and Postgres databases;<br>
                     Unit testing with JUnit5 to ensure code quality;<br>Use of tools such as DBeaver for database management;<br>
+                    Development of static and dynamic web pages using HTML5 and CSS3;<br>
                     Experience with Linux;<br>
                     Application of good versioning practices with GitHub;</p>
             </div>
         </div>
     </section>
 
-    <section id="projetos">
+    <section id="projects">
         <div class="container">
             <h2>Projects</h2>
             <div class="project">
@@ -99,7 +108,7 @@
         </div>
     </section>
 
-    <section id="contato">
+    <section id="contact">
         <div class="container">
             <h2>Contact</h2>
             <p>For more information, contact: thiagohenriquedeoliveira015@gmail.com</p>

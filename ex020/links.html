@@ -4,13 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Links</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a{
+            color:red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active{
+            color: yellow;
+        }
+
+        a::before{
+            content: '→';
+        }
+
+        a::after{
+            content: '←';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+    </style>
 </head>
 <body>
     <h1>Personlizando Links</h1>
     <ul>
-        <li>Repositorio GitHub</li>
-        <li>Canal do Youtube</li>
-        <li>Site do CrusoEmVideo</li>
+        <li><a href="https://github.com/thiagoHenrique19">Repositorio GitHub</a></li>
     </ul>
 </body>
 </html>

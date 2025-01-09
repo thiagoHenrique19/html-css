@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #87CEEB; /* Céu azul */
+}
+
+.game-container {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    background-color: #8B4513; /* Cor do chão */
+}
+
+.player {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: red; /* Cor do personagem */
+    bottom: 50px; /* Altura inicial */
+    left: 50px; /* Posição inicial */
+}
+
+.ground {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    background-color: #654321; /* Cor do chão */
+    bottom: 0;
+}
