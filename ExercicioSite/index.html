@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grupo de Amigos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        .galeria {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .galeria img {
+            width: 30%;
+            margin: 1.5%;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #333;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao nosso grupo!</h1>
+        <nav>
+            <ul>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#downloads">Downloads</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <p>Somos um grupo de amigos que adora cerveja, Cuba, motos e jeeps. Junte-se a nós em nossas aventuras!</p>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria de Fotos</h2>
+            <div class="galeria">
+                <img src="foto1.jpg" alt="Foto 1">
+                <img src="foto2.jpg" alt="Foto 2">
+                <img src="foto3.jpg" alt="Foto 3">
+                <!-- Adicione mais imagens conforme necessário -->
+            </div>
+        </section>
+
+        <section id="downloads">
+            <h2>Downloads</h2>
+            <ul>
+                <li><a href="arquivo1.pdf" download>Arquivo 1</a></li>
+                <li><a href="arquivo2.pdf" download>Arquivo 2</a></li>
+                <!-- Adicione mais arquivos conforme necessário -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Grupo de Amigos. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
